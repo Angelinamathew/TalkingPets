@@ -24,7 +24,14 @@ public class MainApplication {
                 Dog dog = new Dog(String.valueOf(names));
                 pets.add(dog);
             }
+            if(typeOfPet.toLowerCase().equals("cat")){
+                Cat cat = new Cat(String.valueOf(names));
+                pets.add(cat);
+            }
 
+        }
+        for (int i=0; i<pets.size(); i++){
+            System.out.println(pets.get(i).getName() + " speak " + pets.get(i).speak());
         }
     }
 

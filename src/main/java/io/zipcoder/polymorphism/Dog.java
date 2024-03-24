@@ -17,6 +17,6 @@ public class Dog extends Pet{
     }
     @Override
     public String speak(){
-        return "Boow";
+        return "Bow wow";
     }
 }

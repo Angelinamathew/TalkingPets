@@ -10,7 +10,7 @@ public class Pet {
     }
 
     public Pet(){
-        this.name = "No name";
+        this.name = "name";
         this.age = 0;
     }
     public Pet(String name) {
@@ -18,7 +18,7 @@ public class Pet {
         this.age =0;
     }
     public Pet(int age) {
-        this.name = "No name";
+        this.name = "name";
         this.age = age;
     }
 
